@@ -23,7 +23,7 @@ app.get("/", async (req,res)=>{
 app.post("/", async (req,res)=>{
     try {
     const location=await req.body.city;
-    const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=${process.env.API_KEY}&units=metric`;
+    const url=`https://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=7740d25c3da07cf1c7df01e556fa81a5&units=metric`;
     const response=await axios.get(url);
     const weatherData=response.data;
     const temp= await weatherData.main.temp;
