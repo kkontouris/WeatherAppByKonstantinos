@@ -1,0 +1,64 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.background-image {
+  background-image: url("../images/logo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Adjust as needed for your layout */
+  width:100%;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    flex: 1;
+  }
+
+  .data {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2em;
+    margin-bottom: 50px;
+  }
+
+  .info-card {
+  
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+  
+  .show-info-button {
+    margin-top: 10px;
+  }
+  
+  .producer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .data{
+    text-size-adjust: 20px;
+    text-align: center;
+  }
+
+  .flex{
+    display: flex;
+    flex-direction: column;
+
+  }
